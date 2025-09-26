@@ -71,7 +71,7 @@ chmod +x *
 - Struggles with green reflections and complex scenes.
 - Sensitive to lighting differences.
 
-![](readme_files/opencv_RGB_tracker.mp4)
+![A1](readme_files/opencv_RGB_tracker.mp4)
 
 ### Future Improvements
 
