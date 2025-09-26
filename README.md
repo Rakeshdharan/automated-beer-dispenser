@@ -110,7 +110,7 @@ chmod +x *
 - Glass contour detection effective when glass is prominent.
 - Still challenged by illumination changes or transparent overlaps.
 
-![](readme_files/opencv_green_mask.mp4)
+![A2](readme_files/opencv_green_mask.mp4)
 
 ### Future Improvements
 
@@ -150,7 +150,7 @@ python opencv_segmentation_model.py videos/beer_normal_glass_crop.mp4
 - Reasonably accurate beer/foam fill ratios.
 - Requires GPU or optimized inference for real-time operation.
 
-![](readme_files/opencv_seg_model.mp4)
+![A3](readme_files/opencv_seg_model.mp4)
 
 ### Future Improvements
 
@@ -193,7 +193,7 @@ python beer_fillper_opencv_callibration.py videos/beer1_cropped.mp4
 - Allows fine-tuning for varying beer and foam colors using interactive trackbars.
 - Calibration improves absolute fill percentage accuracy.
 
-![](readme_files/callibrated_beer_foam_segmentation.mp4)
+![A4](readme_files/callibrated_beer_foam_segmentation.mp4)
 
 
 ### Future Improvements
@@ -233,7 +233,7 @@ python optical_flow_fillper.py videos/beer1_without_greenscreen.webm
 - Glass contour tracking is robust to moderate motion and slight illumination changes.
 - Sensitive to lighting differences.
 
-![](readme_files/optical_flow_hsv.mp4)
+![A5](readme_files/optical_flow_hsv.mp4)
 
 
 ### Future Improvements
@@ -272,7 +272,7 @@ python yolo_based_segmentation.py videos/beer_with_holder.mp4
 - Beer/foam fill percentages are more consistent across video frames than simpler HSV-only methods.
 - Suitable for offline or GPU-accelerated real-time inference.
 
-![](readme_files/yolo_segmentation.mp4)
+![A6](readme_files/yolo_segmentation.mp4)
 
 
 ### Future Improvements
